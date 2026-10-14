@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SOLARA – Soğuk Sıkım Meyve Suları</title>
+  <meta name="description" content="SOLARA: soğuk sıkım, şeker ilavesiz meyve suları. Mango, Nar, Limon & Nane, Yaban Mersini ve Şeftali.">
+  <meta name="theme-color" content="#FFF1DA">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SOLARA">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="SOLARA – Soğuk Sıkım Meyve Suları">
+  <meta property="og:description" content="Şeker ilavesiz, %100 meyveden soğuk sıkım meyve suları.">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"SOLARA","slogan":"Güneşin tadı, soğuk sıkım.",
+   "email":"info@solara.com","address":{"@type":"PostalAddress","addressLocality":"İzmir","addressCountry":"TR"}}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="is-loading">
+<a class="skip-link" href="#icerik">İçeriğe geç</a>
+
+<!-- Açılış perdesi -->
+<div class="curtain" id="curtain" aria-hidden="true">
+  <div class="curtain-logo" data-logo><span class="wordmark">solara</span></div>
+  <div class="curtain-bar"><i></i></div>
+</div>
+
+<header class="topbar" id="topbar">
+  <a class="logo" href="#hero" data-go="hero" aria-label="SOLARA ana sayfa"><span data-logo><span class="wordmark">solara</span></span></a>
+  <nav class="pill" aria-label="Ana menü">
+    <a href="#hero" data-go="hero">Ana Sayfa</a>
+    <a href="#lezzetler" data-go="lezzetler">Lezzetler</a>
+    <a href="#hikaye" data-go="hikaye">Hikâye</a>
+    <a href="#sss" data-go="sss">SSS</a>
+    <a href="#bul" data-go="bul">Nerede?</a>
+  </nav>
+  <a class="btn btn-solid magnetic" href="#bul" data-go="bul">Satın Al</a>
+  <button class="burger" id="burger" aria-label="Menüyü aç" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<div class="overlay" id="overlay" aria-hidden="true">
+  <a href="#hero" data-go="hero">Ana Sayfa</a>
+  <a href="#lezzetler" data-go="lezzetler">Lezzetler</a>
+  <a href="#hikaye" data-go="hikaye">Hikâye</a>
+  <a href="#bul" data-go="bul">Nerede?</a>
+</div>
+
+<!-- Sağ ilerleme rayı -->
+<ol class="rail" id="rail" aria-label="Bölümler"></ol>
+
+<main id="icerik">
+
+  <!-- HERO -->
+  <section class="hero" id="hero" data-section>
+    <div class="hero-bg" id="heroBg"></div>
+    <div class="sun" aria-hidden="true"></div>
+
+    <h1 class="hero-word" aria-label="SOLARA"><span class="hw" aria-hidden="true">SOLARA</span></h1>
+
+    <div class="hero-bottle" id="heroBottle"><div class="tilt" data-slot="hero"></div></div>
+
+    <div class="hero-left">
+      <p class="eyebrow">Soğuk sıkım · Şeker ilavesiz</p>
+      <p class="hero-lead">Güneşin tadı,<br>soğuk sıkım.</p>
+      <a class="btn btn-solid magnetic" href="#lezzetler" data-go="lezzetler">Lezzetleri Keşfet</a>
+    </div>
+
+    <div class="badge" aria-hidden="true">
+      <svg viewBox="0 0 200 200"><defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+        <text><textPath href="#circ">COLD PRESSED • %100 MEYVE • COLD PRESSED • %100 MEYVE •</textPath></text></svg>
+      <span>%100</span>
+    </div>
+
+    <a class="scroll-cue" href="#lezzetler" data-go="lezzetler" aria-label="Aşağı kaydır"><i></i></a>
+  </section>
+
+  <!-- Kayan şerit -->
+  <div class="marquee" id="marquee" aria-hidden="true"><div class="track" id="marqueeTrack"></div></div>
+
+  <!-- Lezzet sahneleri -->
+  <div id="lezzetler"></div>
+  <div id="flavors"></div>
+
+  <!-- HİKÂYE -->
+  <section class="story" id="hikaye" data-section data-theme="dark">
+    <div class="story-inner">
+      <span class="eyebrow">Hikâyemiz</span>
+      <p class="reveal-words" id="storyText">Her şişe, güneşte olgunlaşmış meyvenin sabaha kadar beklemeden sıkılmasıyla başlar. Şeker katmıyoruz, su katmıyoruz, acele etmiyoruz. Sadece meyve, soğuk sıkım ve bolca güneş.</p>
+      <div class="counters">
+        <div><strong data-count="5">0</strong><span>Lezzet</span></div>
+        <div><strong data-count="100" data-suffix="%">0</strong><span>Meyve</span></div>
+        <div><strong data-count="0">0</strong><span>İlave şeker</span></div>
+        <div><strong data-count="24" data-suffix="sa">0</strong><span>Sıkımdan şişeye</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEDEN SOLARA -->
+  <section class="block why" id="neden" data-section data-norail data-theme="light">
+    <div class="wrap">
+      <header class="block-head rv">
+        <span class="eyebrow">Neden SOLARA?</span>
+        <h2>Sade içerik,<br>net söz.</h2>
+      </header>
+      <div class="cards">
+        <article class="card rv">
+          <span class="card-ico" aria-hidden="true">01</span>
+          <h3>Şeker ilavesiz</h3>
+          <p>İçindeki tek tatlılık meyvenin kendisi. Katkı maddesi ve koruyucu kullanmıyoruz.</p>
+        </article>
+        <article class="card rv">
+          <span class="card-ico" aria-hidden="true">02</span>
+          <h3>Soğuk sıkım</h3>
+          <p>Meyveyi ısıtmadan, yavaşça sıkıyoruz. Vitaminler ve aroma şişeye olduğu gibi geçiyor.</p>
+        </article>
+        <article class="card rv">
+          <span class="card-ico" aria-hidden="true">03</span>
+          <h3>Soğuk zincir</h3>
+          <p>Sıkımdan rafa kadar kesintisiz soğuk zincir. Her yudum ilk günkü kadar taze.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SÜREÇ -->
+  <section class="block process" id="surec" data-section data-norail data-theme="dark">
+    <div class="wrap">
+      <header class="block-head rv">
+        <span class="eyebrow">Tarladan şişeye</span>
+        <h2>Dört adımda<br>taze.</h2>
+      </header>
+      <ol class="steps">
+        <li class="rv"><b>01</b><h3>Seçim</h3><p>Sezonunda ve olgunlaşmış meyveler, yerel üreticilerden seçilir.</p></li>
+        <li class="rv"><b>02</b><h3>Yıkama</h3><p>Meyveler soğuk suyla yıkanır, elle ayıklanır.</p></li>
+        <li class="rv"><b>03</b><h3>Soğuk sıkım</h3><p>Isı uygulanmadan, düşük hızda sıkılır.</p></li>
+        <li class="rv"><b>04</b><h3>Şişeleme</h3><p>Aynı gün şişelenir ve soğuk zincirle yola çıkar.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- SSS -->
+  <section class="block faq" id="sss" data-section data-norail data-theme="light">
+    <div class="wrap faq-wrap">
+      <header class="block-head rv">
+        <span class="eyebrow">Sık sorulanlar</span>
+        <h2>Merak<br>ettikleriniz.</h2>
+      </header>
+      <div class="faq-list rv">
+        <details><summary>Ürünlerde şeker veya koruyucu var mı?</summary><p>Hayır. Tüm ürünlerimiz yalnızca meyve ve (Limon &amp; Nane için) nane içerir. Şeker, aroma veya koruyucu eklenmez.</p></details>
+        <details><summary>Raf ömrü ne kadar?</summary><p>Soğuk zincirde saklandığında üzerinde yazan tarihe kadar tazedir. Açıldıktan sonra buzdolabında 24 saat içinde tüketilmesini öneririz.</p></details>
+        <details><summary>Neden bazı şişelerde çökelti oluyor?</summary><p>Soğuk sıkım meyve sularında doğal posa ve lifler zamanla çökebilir. Bu normaldir; içmeden önce hafifçe çalkalayın.</p></details>
+        <details><summary>Ürünler glutensiz mi?</summary><p>Evet, tüm ürünlerimiz doğal olarak glutensizdir.</p></details>
+        <details><summary>Toplu sipariş veya iş birliği için kime ulaşmalıyım?</summary><p>info@solara.com adresine yazabilirsiniz; ekibimiz en kısa sürede dönüş yapar.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEREDE / İLETİŞİM -->
+  <section class="find" id="bul" data-section data-theme="light">
+    <div class="find-inner">
+      <div>
+        <span class="eyebrow">Nerede bulunur?</span>
+        <h2>Soğuk soğuk,<br>sana yakın.</h2>
+        <div class="stores" id="stores"></div>
+      </div>
+      <form class="news" id="newsForm" novalidate>
+        <h3>Güneşten haberdar ol</h3>
+        <p>Yeni lezzetler ve kampanyalar için e-posta bırak.</p>
+        <div class="form-alert" id="formAlert" role="alert" hidden></div>
+        <label>E-posta<input type="email" name="mail" placeholder="ornek@mail.com" required></label>
+        <button class="btn btn-solid magnetic" type="submit">Abone Ol</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="f-brand">
+        <span data-logo><span class="wordmark">solara</span></span>
+        <p>Güneşin tadı, soğuk sıkım.</p>
+      </div>
+      <nav aria-label="Sayfalar">
+        <h4>Keşfet</h4>
+        <a href="#lezzetler" data-go="lezzetler">Lezzetler</a>
+        <a href="#hikaye" data-go="hikaye">Hikâye</a>
+        <a href="#sss" data-go="sss">SSS</a>
+        <a href="#bul" data-go="bul">Nerede?</a>
+      </nav>
+      <nav aria-label="Yasal">
+        <h4>Yasal</h4>
+        <a href="#">Gizlilik Politikası</a>
+        <a href="#">KVKK Aydınlatma Metni</a>
+        <a href="#">Çerez Politikası</a>
+      </nav>
+      <div>
+        <h4>İletişim</h4>
+        <a href="mailto:info@solara.com">info@solara.com</a>
+        <a href="tel:+900000000000">+90 000 000 00 00</a>
+        <span>İzmir, Türkiye</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <small>© 2026 SOLARA. Tüm hakları saklıdır.</small>
+      <div class="social">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="YouTube">YouTube</a>
+      </div>
+    </div>
+  </footer>
+</main>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

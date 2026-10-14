@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Yayına alınca alan adınızla değiştirin:
+# Sitemap: https://www.alanadiniz.com/sitemap.xml
